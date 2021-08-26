@@ -2,7 +2,7 @@
 
 <h1>Hair's Marry</h1>
 
-<p>O objetivo é desenvolver uma aplicação para o proprietário de um salão de beleza.</p>
+<p>O objetivo é desenvolver uma aplicação para auxiliar o proprietario do Salão de Beleza.</p>
 
 <h2>Integrantes</h2>
 <ul>
