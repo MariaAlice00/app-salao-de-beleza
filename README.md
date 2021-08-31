@@ -19,7 +19,16 @@
 
 <h2>Tecnologias</h2>
 <ul>
-  <li>Back-End</li>
-  <li>Front-End</li>
+  <li>Back-End:</li>
+  <ul>
+    <li>NodeJS</li>
+    <li>ExpressJS</li>
+  </ul>
+  <li>Front-End:</li>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
   <li>Banco de Dados</li>
 </ul>
