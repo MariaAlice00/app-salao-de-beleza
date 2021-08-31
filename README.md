@@ -13,8 +13,11 @@
 
 <h2>Funcionalidades</h2>
 <ul>
-  <li>O dono terá um controle de seus horários, serviços. clientes e fornecedores.</li>
-  <li>O dono também terá uma segurança, pois somente ele terá acesso aos serviços do app (autenticação).</li>
+  <li>Horários: um controle para o que será feito no dia</li>
+  <li>Serviços: quais os tipos de serviços oferecidos (escova, hidratação, corte, etc)</li>
+  <li>Clientes: quem frequenta o salão</li>
+  <li>Fornecedores: as marcas dos produtos que o dono utiliza</li>
+  <li>Autenticação: o dono terá uma segurança, pois somente ele terá acesso aos serviços do app</li>
 </ul>
 
 <h2>Tecnologias</h2>
