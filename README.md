@@ -8,6 +8,7 @@
 <ul>
   <li>Maria Alice</li>
   <li>Maria Eugênia</li>
+  <li>Guilherme Daniel</li>
 </ul>
 
 <h2>Funcionalidades</h2>
