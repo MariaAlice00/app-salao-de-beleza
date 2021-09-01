@@ -13,11 +13,11 @@
 
 <h2>Funcionalidades</h2>
 <ul>
-  <li>Horários: um controle para o que será feito no dia</li>
-  <li>Serviços: quais os tipos de serviços oferecidos (escova, hidratação, corte, etc)</li>
-  <li>Clientes: quem frequenta o salão</li>
-  <li>Fornecedores: as marcas dos produtos que o dono utiliza</li>
-  <li>Autenticação: o dono terá uma segurança, pois somente ele terá acesso aos serviços do app</li>
+  <li>Controle de horários: um controle para o que será feito no dia;</li>
+  <li>Controle de serviços prestados: quais os tipos de serviços oferecidos (escova, hidratação, corte, etc), com duração do serviço, lista de produtos que serão usados e valor;</li>
+  <li>Controle de clientes: quem frequenta o salão, com histórico de serviços usados;</li>
+  <li>Controle de estoque: Armazenar dados como nome do fornecedor, Nome do produto, Quantidade de produtos, Valor, Data e hora da compra;</li>
+  <li>Autenticação: o dono terá uma segurança, pois somente ele terá acesso aos serviços do app.</li>
 </ul>
 
 <h2>Tecnologias</h2>
@@ -34,4 +34,7 @@
     <li>JavaScript</li>
   </ul>
   <li>Banco de Dados</li>
+    <ul>
+    <li>Firebase</li>
+  </ul>
 </ul>
