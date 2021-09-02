@@ -40,3 +40,4 @@
 </ul>
 
 <h2>Protótipo básico</h2>
+<img src="https://raw.githubusercontent.com/MariaAlice00/app-salao-de-beleza/main/assets/prototipo.png"/>
