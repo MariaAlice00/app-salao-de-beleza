@@ -40,4 +40,5 @@
 </ul>
 
 <h2>Protótipo básico</h2>
+<a href="https://www.figma.com/file/YX1ojYIyeBqt49zjKozcQD/Design?node-id=2%3A64">Link para o Figma do projeto<a/>
 <img src="https://raw.githubusercontent.com/MariaAlice00/app-salao-de-beleza/main/assets/g8949.png"/>
