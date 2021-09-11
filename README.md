@@ -13,8 +13,11 @@
 
 <h2>Funcionalidades</h2>
 <ul>
-  <li>O dono terá um controle de seus horários, serviços. clientes e fornecedores.</li>
-  <li>O dono também terá uma segurança, pois somente ele terá acesso aos serviços do app (autenticação).</li>
+  <li>Controle de horários: um controle para o que será feito no dia;</li>
+  <li>Controle de serviços prestados: quais os tipos de serviços oferecidos (escova, hidratação, corte, etc), com duração do serviço, lista de produtos que serão usados e valor;</li>
+  <li>Controle de clientes: quem frequenta o salão, com histórico de serviços usados;</li>
+  <li>Controle de estoque: Armazenar dados como nome do fornecedor, Nome do produto, Quantidade de produtos, Valor, Data e hora da compra;</li>
+  <li>Autenticação: o dono terá uma segurança, pois somente ele terá acesso aos serviços do app.</li>
 </ul>
 
 <h2>Tecnologias</h2>
@@ -31,4 +34,11 @@
     <li>JavaScript</li>
   </ul>
   <li>Banco de Dados</li>
+    <ul>
+    <li>Firebase</li>
+  </ul>
 </ul>
+
+<h2>Protótipo básico</h2>
+<a href="https://www.figma.com/file/YX1ojYIyeBqt49zjKozcQD/Design?node-id=2%3A64">Link para o Figma do projeto<a/>
+<img src="https://raw.githubusercontent.com/MariaAlice00/app-salao-de-beleza/main/assets/g8949.png"/>
