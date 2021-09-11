@@ -1,0 +1,19 @@
+{
+  "name": "app-salao-de-beleza",
+  "version": "1.0.0",
+  "description": "Aplicação para auxilio de proprietários de salão de beleza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaAlice00/app-salao-de-beleza.git"
+  },
+  "author": "Guilherme Daniel, Maria Alice, Maria Eugenia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaAlice00/app-salao-de-beleza/issues"
+  },
+  "homepage": "https://github.com/MariaAlice00/app-salao-de-beleza#readme"
+}
