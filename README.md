@@ -46,3 +46,4 @@
 <h2>Sprints</h2>
   <p>Deadline #1 - 18/10</p>
   <p>Deadline #2 - 29/11</p>
+  <a href="https://github.com/MariaAlice00/app-salao-de-beleza/blob/main/assets/Review%20Sprint%20-%20Marry%20Hair's.docx">Documento da Sprint</a>
