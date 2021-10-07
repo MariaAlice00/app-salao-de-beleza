@@ -35,7 +35,7 @@
   </ul>
   <li>Banco de Dados</li>
     <ul>
-    <li>Firebase</li>
+    <li>MongoDB</li>
   </ul>
 </ul>
 
