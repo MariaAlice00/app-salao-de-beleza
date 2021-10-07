@@ -1,0 +1,53 @@
+<!--include header-->
+<%- include('include/_header') %>
+<!--/include header-->
+
+    <!--Main Site-->
+    <main id="site-main">
+        <div class="container">
+            <div class="box-nav d-flex justify-between">
+                <div class="filter">
+                    <a href="/"><i class="fas fa-angle-double-left"></i> Todos os serviços</a>
+                </div>
+            </div>
+
+            <div class="form-title text-center">
+                <h2 class="text-dark">Atualizar Serviço</h2>
+                <span class="text-light">Use o formulário abaixo para atualizar um serviço</span>
+            </div>
+
+            <!-- add service form -->
+            <!--form handling-->
+            <form method="POST" id="update_service">
+                <div class="new_service">
+                    <div class="form-group">
+                        <label for="type" class="text-light">Tipo</label>
+                        <input type="hidden" name="id" value="<%= service._id %>">
+                        <input type="text" name="type" value="<%= service.type %>" placeholder="Hidratação">
+                    </div>
+                    <div class="form-group">
+                        <label for="duration" class="text-light">Duração</label>
+                        <input type="text" name="duration" value="<%= service.duration %>" placeholder="2 horas e 30 minutos">
+                    </div>
+                    <div class="form-group">
+                        <label for="products" class="text-light">Produtos</label>
+                        <input type="text" name="products" value="<%= service.products %>" placeholder="Shampoo, creme de hidratação e condicionador">
+                    </div>
+                    <div class="form-group">
+                        <label for="price" class="text-light">Preço(R$)</label>
+                        <input type="number" name="price" value="<%= service.price %>" placeholder="50">
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn text-dark update">Save</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </main>
+<!--/Main Site-->
+
+<!--include footer-->
+    <%- include('include/_footer') %>
+<!--/include footer-->

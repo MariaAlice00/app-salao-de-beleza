@@ -1,0 +1,26 @@
+<!--form handling-->
+<form action="/api/services" method="POST" id="add_service">
+    <div class="new_service">
+        <div class="form-group">
+            <label for="type" class="text-light">Tipo</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="type" value="" placeholder="Hidratação">
+        </div>
+        <div class="form-group">
+            <label for="duration" class="text-light">Duração</label>
+            <input type="text" name="duration" value="" placeholder="2 horas e 30 minutos">
+        </div>
+        <div class="form-group">
+            <label for="products" class="text-light">Produtos</label>
+            <input type="text" name="products" value="" placeholder="Shampoo, creme de hidratação e condicionador">
+        </div>
+        <div class="form-group">
+            <label for="price" class="text-light">Preço(R$)</label>
+            <input type="number" name="price" value="" placeholder="50">
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+    </div>
+</form>
