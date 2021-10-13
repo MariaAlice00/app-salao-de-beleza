@@ -1,7 +1,7 @@
 const express = require('express')
 const route = express.Router()
-const services = require('../services/render')
-const controller = require('../controller/controller')
+const services = require('../services/renderServico')
+const controller = require('../controller/controllerServico')
 
 /**
     * @description Root Route

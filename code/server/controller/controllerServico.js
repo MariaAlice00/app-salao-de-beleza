@@ -1,4 +1,4 @@
-var Servicedb = require('../model/model')
+var Servicedb = require('../model/modelServico')
 
 // create and save new service
 exports.create = (req, res) => {
