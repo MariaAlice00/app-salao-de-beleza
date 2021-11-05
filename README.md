@@ -1,6 +1,6 @@
 # app-salao-de-beleza
 
-<h1>Hair's Marry</h1>
+<h1>Marry's Hair</h1>
 
 <p>O objetivo é desenvolver uma aplicação para auxiliar o proprietario do Salão de Beleza.</p>
 
@@ -40,8 +40,8 @@
 </ul>
 
 <h2>Protótipo básico</h2>
-<a href="https://www.figma.com/file/YX1ojYIyeBqt49zjKozcQD/Design?node-id=2%3A64">Link para o Figma do projeto<a/>
-<img src="https://raw.githubusercontent.com/MariaAlice00/app-salao-de-beleza/main/documentos/Clientes.png"/>
+<a href="https://www.figma.com/file/OHiizCgLrqorGv3J8UE8kE/Untitled?node-id=0%3A1">Link para o Figma do projeto<a/>
+<!-<img src="https://raw.githubusercontent.com/MariaAlice00/app-salao-de-beleza/main/documentos/Clientes.png"/>->
 
 <h2>Sprints</h2>
   <a href="https://github.com/MariaAlice00/app-salao-de-beleza/blob/main/documentos/Review%20Sprint%20-%20Marry%20Hair's.docx">Documento da Sprint</a>
