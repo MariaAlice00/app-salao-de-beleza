@@ -36,7 +36,10 @@
     <li>EJS</li>
     <li>HTML</li>
     <li>CSS</li>
+    <li>Tailwind CSS</li>
+    <li>Sass</li>
     <li>JavaScript</li>
+    <li>Laravel Mix</li>
     <li>MongoDB</li>
 </ul>
 
