@@ -1,0 +1,16 @@
+{
+  "name": "app-salao-de-beleza",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/MariaAlice00/app-salao-de-beleza.git",
+  "author": "MariaAlice00 <mariaalice021200@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
