@@ -38,3 +38,18 @@ section.hero {
   border-color: #FFF;
   color: #FFF;
 }
+
+.btn-primary {
+  background: #D4BD26;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background: #9b8709;
+}
+
+section.cart {
+  background: #FDF9F0;
+}
+section.cart .amount {
+  color: #A28E0A;
+}

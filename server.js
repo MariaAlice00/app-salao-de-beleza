@@ -8,15 +8,19 @@ const PORT = process.env.PORT || 3000
 // Assets
 app.use(express.static('public'))
 
+// Template engine
+app.use(expressLayout)
+app.set('views', path.join(__dirname, 'resources/views'))
+app.set('view engine', 'ejs')
+
 // Rotas
 app.get('/', (req, res) => {
     res.render('home')
 })
 
-// Template engine
-app.use(expressLayout)
-app.set('views', path.join(__dirname, 'resources/views'))
-app.set('view engine', 'ejs')
+app.get('/carrinho', (req, res) => {
+    res.render('clientes/carrinho')
+})
 
 // Run
 app.listen(PORT, () => {
