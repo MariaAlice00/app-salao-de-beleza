@@ -10,14 +10,14 @@ body {
 
 #logo {
     font-family: 'Pacifico', cursive;
-    color: $primary-logo;
+    color: $primary-dark;
     font-size: 1.5em;
 }
 
 nav li:last-child a {
     background: $primary;
     &:hover {
-        background: $primary-hover;
+        background: $primary-dark;
     }
 }
 
@@ -47,13 +47,24 @@ section.hero {
     background: $primary;
     transition: $smooth;
     &:hover {
-        background: $primary-hover;
+        background: $primary-dark;
     }
 }
 
 section.cart {
     background: $secondary;
     .amount {
-        color: $primary-logo;
+        color: $primary-dark;
+    }
+}
+
+section.login {
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+    a {
+        color: $primary;
+        &:hover {
+            color: $primary-dark;
+        }
     }
 }

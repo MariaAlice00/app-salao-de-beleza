@@ -22,6 +22,13 @@ app.get('/carrinho', (req, res) => {
     res.render('clientes/carrinho')
 })
 
+app.get('/login', (req, res) => {
+    res.render('auth/login')
+})
+app.get('/registro', (req, res) => {
+    res.render('auth/registro')
+})
+
 // Run
 app.listen(PORT, () => {
     console.log(`App running in http://localhost:${PORT}`)

@@ -6,7 +6,7 @@ body {
 
 #logo {
   font-family: "Pacifico", cursive;
-  color: #A28E0A;
+  color: #9b8709;
   font-size: 1.5em;
 }
 
@@ -51,5 +51,16 @@ section.cart {
   background: #FDF9F0;
 }
 section.cart .amount {
-  color: #A28E0A;
+  color: #9b8709;
+}
+
+section.login {
+  background: #FDF9F0;
+  min-height: calc(100vh - 86px);
+}
+section.login a {
+  color: #D4BD26;
+}
+section.login a:hover {
+  color: #9b8709;
 }
