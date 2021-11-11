@@ -1,10 +1,7 @@
 <section class="hero py-16">
     <div class="container mx-auto flex items-center justify-between">
         <div class="w-1/2">
-            <!-- <h6 class="text-lg"><em>Seja bem-vindo(a) a Marry's Hair</em></h6> -->
-            <!-- <h1 class="text-3xl md:text-6xl font-bold">Aproveite!</h1> -->
             <h1 class="text-1xl md:text-3xl font-bold">Experimente o verdadeiro significado da beleza dentro da sua própria casa!</h1>
-            <!-- <button class="px-6 py-2 rounded-full text-white font-bold mt-4 btn-primary">Aproveite!</button> -->
             <br>
             <a href="#servicos" class="px-6 py-2 rounded-full text-white font-bold mt-4 btn-primary">Aproveite!</a>
         </div>
@@ -17,109 +14,20 @@
 <section id="servicos" class="menu container mx-auto py-8">
     <h1 class="text-xl font-bold mb-8">Todos os serviços</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-12 gap-x-16">
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
+        <% servicos.forEach(function(servico) { %>
+            <div class="w-full m-4 md:w-64">
+                <img class="h-40 mb-4 mx-auto" src="/img/<%= servico.imagem %>" alt="">
+                <div class="text-center">
+                    <h2 class="mb-4 text-lg"><%= servico.nome %></h2>
+                    <div class="flex items-center justify-around mt-6">
+                        <span class="font-bold text-lg">R$<%= servico.preco %></span>
+                        <button data-servico="<%= JSON.stringify(servico) %>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                            <span>+</span>
+                            <span class="ml-4">Adicionar</span>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="w-full m-4 md:w-64">
-            <img class="h-40 mb-4 mx-auto" src="/img/corte-de-cabelo.jpg" alt="">
-            <div class="text-center">
-                <h2 class="mb-4 text-lg">Corte de cabelo</h2>
-                <div class="flex items-center justify-around mt-6">
-                    <span class="font-bold text-lg">R$100</span>
-                    <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
-                        <span>+</span>
-                        <span class="ml-4">Adicionar</span>
-                    </button>
-                </div>
-            </div>
-        </div>        
+        <% }) %>
     </div>
 </section>
