@@ -6,8 +6,8 @@ import moment from 'moment'
 let addToCart = document.querySelectorAll('.add-to-cart')
 let cartCounter = document.querySelector('#cartCounter')
 
-function updateCart(service) {
-    axios.post('/update-cart', service).then(res => {
+function updateCart(servico) {
+    axios.post('/update-cart', servico).then(res => {
         cartCounter.innerText = res.data.totalQty
         new Noty({
             type: 'success',
@@ -25,10 +25,11 @@ function updateCart(service) {
     })
 }
 
+
 addToCart.forEach((btn) => {
     btn.addEventListener('click', (e) => {
-        let service = JSON.parse(btn.dataset.service)
-        updateCart(service)
+        let servico = JSON.parse(btn.dataset.servico)
+        updateCart(servico)
     })
 })
 

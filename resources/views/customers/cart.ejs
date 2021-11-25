@@ -5,15 +5,15 @@
             <img src="/img/cart-black.png" alt="">
             <h1 class="font-bold ml-4 text-2xl">Resumo do pedido</h1>
         </div>
-        <div class="service-list">
-            <% for(let service of Object.values(session.cart.items)) { %>
+        <div class="servico-list">
+            <% for(let servico of Object.values(session.cart.items)) { %>
                 <div class="flex items-center my-8">
-                    <img class="w-24" src="/img/<%= service.item.image %>" alt="">
+                    <img class="w-24" src="/img/<%= servico.item.image %>" alt="">
                     <div class="flex-1 ml-4">
-                        <h1><%= service.item.name %></h1>
+                        <h1><%= servico.item.name %></h1>
                     </div>
-                    <span class="flex-1"><%= service.qty %> qtd</span>
-                    <span class="font-bold text-lg">R$<%= service.item.price * service.qty %></span>
+                    <span class="flex-1"><%= servico.qty %> qtd</span>
+                    <span class="font-bold text-lg">R$<%= servico.item.price * servico.qty %></span>
                 </div>
             <% } %>
         </div>
@@ -27,7 +27,7 @@
             </div>
             <% if(user) { %>
             <div>
-                <form action="/orders" class="mt-12">
+                <form action="/orders" method="POST" class="mt-12">
                     <input class="border border-gray-400 p-2 w-1/2 mb-4" type="text" name="phone" id="phone" placeholder="Número de telefone">
                     <input class="border border-gray-400 p-2 w-1/2" type="text" name="address" id="address" placeholder="Endereço">
                     <div>
@@ -36,7 +36,7 @@
                 </form>
             </div>
             <% } else { %>
-            <a href="" class="inline-block cursor-pointer btn-primary px-6 py-2 rounded-full text-white font-bold mt-6">Login para continuar</a>
+            <a href="/login" class="inline-block cursor-pointer btn-primary px-6 py-2 rounded-full text-white font-bold mt-6">Login para continuar</a>
             <% } %>
         </div>
     </div>

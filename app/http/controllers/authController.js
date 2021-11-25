@@ -11,6 +11,7 @@ function authController() {
         login(req, res) {
             res.render('auth/login')
         },
+
         postLogin(req, res, next) {
             const { email, password }   = req.body
            // Validar request 
@@ -36,9 +37,11 @@ function authController() {
                 })
             })(req, res, next)
         },
+
         register(req, res) {
             res.render('auth/register')
         },
+
         async postRegister(req, res) {
             const { name, email, password } = req.body
             // Validate request
@@ -57,6 +60,7 @@ function authController() {
                     return res.redirect('/register')
                 }
             })
+
             // senha hash
             const hashedPassword = await bcrypt.hash(password, 10)
 
@@ -66,6 +70,7 @@ function authController() {
                 email,
                 password: hashedPassword
             })
+
             user.save().then(() => {
                 // Login
                 return res.redirect('/')
@@ -74,6 +79,7 @@ function authController() {
                 return res.redirect('/register')
             })
         },
+        
         logout(req, res) {
             req.logout()
             return res.redirect('/login')

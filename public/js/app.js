@@ -2240,8 +2240,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var addToCart = document.querySelectorAll('.add-to-cart');
 var cartCounter = document.querySelector('#cartCounter');
 
-function updateCart(service) {
-  axios__WEBPACK_IMPORTED_MODULE_0___default().post('/update-cart', service).then(function (res) {
+function updateCart(servico) {
+  axios__WEBPACK_IMPORTED_MODULE_0___default().post('/update-cart', servico).then(function (res) {
     cartCounter.innerText = res.data.totalQty;
     new (noty__WEBPACK_IMPORTED_MODULE_1___default())({
       type: 'success',
@@ -2261,8 +2261,8 @@ function updateCart(service) {
 
 addToCart.forEach(function (btn) {
   btn.addEventListener('click', function (e) {
-    var service = JSON.parse(btn.dataset.service);
-    updateCart(service);
+    var servico = JSON.parse(btn.dataset.servico);
+    updateCart(servico);
   });
 }); // Remover a mensagem de alerta após X segundos
 

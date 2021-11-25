@@ -3,7 +3,7 @@ const express = require('express')
 const ejs = require('ejs')
 const path = require('path')
 const expressLayout = require('express-ejs-layouts')
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 4000
 const mongoose = require('mongoose')
 const session = require('express-session')
 const flash = require('express-flash')
@@ -20,7 +20,7 @@ connection.once('open', () => {
     try {
         console.log('Banco de dados conectado...');
     }catch(err) {
-        console.log('Conexão falhou...')
+        console.log('A conexão falhou...')
     }
 })
 
@@ -59,15 +59,15 @@ app.use((req, res, next) => {
     next()
 })
 
-// Template engine
+// Set template engine
 app.use(expressLayout)
 app.set('views', path.join(__dirname, '/resources/views'))
 app.set('view engine', 'ejs')
 
-// Rotas
+// routes
 require('./routes/web')(app)
 
-// Run
+// run
 const server = app.listen(PORT, () => {
     console.log(`App running in http://localhost:${PORT}`)
 })
