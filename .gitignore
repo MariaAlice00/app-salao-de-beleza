@@ -118,5 +118,3 @@ dist
 .pnp.*
 
 .env
-menus.json
-dados.txt

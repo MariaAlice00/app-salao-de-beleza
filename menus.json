@@ -1,0 +1,43 @@
+[{
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "Corte de cabelo",
+    "image": "corte-de-cabelo.jpg",
+    "price": "100"
+  },{
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "Escova",
+    "image": "escova.jpg",
+    "price": "150"
+  },{
+    "_id": {
+      "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "Hidratação",
+    "image": "hidratacao.jpg",
+    "price": "200"
+  },{
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "Penteado para festa",
+    "image": "penteado-para-festa.jpg",
+    "price": "180"
+  },{
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "Maquiagem",
+    "image": "maquiagem.jpg",
+    "price": "160"
+  },{
+    "_id": {
+      "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "Manicure",
+    "image": "manicure.jpg",
+    "price": "80"
+}]
