@@ -47,12 +47,12 @@ export function initAdmin(socket) {
                                 <option value="order_placed"
                                     ${ order.status === 'order_placed' ? 'selected' : '' }>
                                     Feito</option>
-                                <option value="confirmed" ${ order.status === 'confirmed' ? 'selected' : '' }>
+                                <option value="order_confirmed" ${ order.status === 'order_confirmed' ? 'selected' : '' }>
                                     Confirmado</option>
-                                <option value="prepared" ${ order.status === 'prepared' ? 'selected' : '' }>
-                                    Preparado</option>
-                                <option value="delivered" ${ order.status === 'delivered' ? 'selected' : '' }>
-                                    Entregue
+                                <option value="coming" ${ order.status === 'coming' ? 'selected' : '' }>
+                                    Chegando</option>
+                                <option value="service" ${ order.status === 'service' ? 'selected' : '' }>
+                                    Em Serviço
                                 </option>
                                 <option value="completed" ${ order.status === 'completed' ? 'selected' : '' }>
                                     Completo
