@@ -4,7 +4,7 @@ function homeController() {
     return {
         async index(req, res) {
             const servicos = await Menu.find()
-            console.log(servicos)
+            // console.log(servicos)
             return res.render('home', { servicos: servicos })
         }
     }
