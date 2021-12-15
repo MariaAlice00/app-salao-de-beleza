@@ -13,7 +13,7 @@ function authController() {
         },
 
         postLogin(req, res, next) {
-            const { email, password }   = req.body
+            const { email, password } = req.body
            // Validar request 
             if(!email || !password) {
                 req.flash('error', 'Todos os campos são necessários')
